@@ -1,3 +1,37 @@
-<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1;user-scalable=no;"><link rel="icon" href="favicon.ico"><title>zkzd-website</title><style>.popover-body {
+<!DOCTYPE html><html lang=""><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><link rel="icon" href="favicon.ico"><title>中科知道 | AIGC</title><style>.popover-body {
       padding: 12px !important;
-    }</style><link href="css/chunk-29e69c48.ce4d5c5a.css" rel="prefetch"><link href="css/chunk-468b2525.dfa06057.css" rel="prefetch"><link href="css/chunk-5be0c210.61f35134.css" rel="prefetch"><link href="css/chunk-6f809bc8.f5336b4a.css" rel="prefetch"><link href="js/chunk-29e69c48.5b9c916a.js" rel="prefetch"><link href="js/chunk-468b2525.b4a657e8.js" rel="prefetch"><link href="js/chunk-5be0c210.3eb74b08.js" rel="prefetch"><link href="js/chunk-6f809bc8.a0cc80ce.js" rel="prefetch"><link href="css/app.f7b45d2e.css" rel="preload" as="style"><link href="css/chunk-vendors.26dc108e.css" rel="preload" as="style"><link href="js/app.4e5a2b8e.js" rel="preload" as="script"><link href="js/chunk-vendors.64e59e3e.js" rel="preload" as="script"><link href="css/chunk-vendors.26dc108e.css" rel="stylesheet"><link href="css/app.f7b45d2e.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but zkzd-website doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="js/chunk-vendors.64e59e3e.js"></script><script src="js/app.4e5a2b8e.js"></script></body></html>
+    }
+
+    html {
+      font-size: 12px;
+    }
+
+    @media (min-width: 375px) {
+      html {
+        /* 375px作为16px的基准,414px宽度时正好对应18px的根字号大小 */
+        font-size: calc(12px + 2 * (100vw - 375px) / 39);
+      }
+    }
+
+    /* // 如果设备是414px， 100vw == 414px；根字号为18px */
+    @media (min-width: 414px) {
+      html {
+        /* 414px作为18px的基准,根字号大小累加增加4px （18px - 22px） */
+        font-size: calc(13px + 4 * (100vw - 414px) / 586);
+      }
+    }
+
+    @media (min-width: 1000px) {
+      html {
+        /* 屏幕宽度从1000px往后每增加100px，根字号大小就增加0.5px */
+        font-size: calc(15px + 5 * (100vw - 1000px) / 1000);
+      }
+    }</style><link href="css/chunk-6ac1190f.583c0e07.css" rel="prefetch"><link href="css/chunk-6e5dac40.0b31dc16.css" rel="prefetch"><link href="css/chunk-772eded8.2a60336f.css" rel="prefetch"><link href="css/chunk-ffcc0644.a13b5ba0.css" rel="prefetch"><link href="js/chunk-6ac1190f.a2349d48.js" rel="prefetch"><link href="js/chunk-6e5dac40.d693cbd0.js" rel="prefetch"><link href="js/chunk-772eded8.df440e3f.js" rel="prefetch"><link href="js/chunk-ffcc0644.5dbfeee3.js" rel="prefetch"><link href="css/app.204c8e04.css" rel="preload" as="style"><link href="css/chunk-vendors.26dc108e.css" rel="preload" as="style"><link href="js/app.89ae2c9e.js" rel="preload" as="script"><link href="js/chunk-vendors.64e59e3e.js" rel="preload" as="script"><link href="css/chunk-vendors.26dc108e.css" rel="stylesheet"><link href="css/app.204c8e04.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but zkzd-website doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script>document.addEventListener('touchstart', function (event) {
+      if (event.touches.length > 1) {
+        event.preventDefault();
+      }
+    }, { passive: false });
+
+    document.addEventListener('gesturestart', function (event) {
+      event.preventDefault();
+    });</script><script src="js/chunk-vendors.64e59e3e.js"></script><script src="js/app.89ae2c9e.js"></script></body></html>
